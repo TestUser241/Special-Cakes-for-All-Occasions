@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="index.html" class="logo-area">
+                <img src="images/Provided_Images/logo.png" alt="Special Cakes for All Occasions logo" />
+                <span class="site-title">Special Cakes for All Occasions</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cakes.html">Cakes for Sale</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="banner-wrapper">
+            <img src='images/web_images/WebBanner2New_Web.jpeg'
+                alt="Selection of delicious cakes and desserts on display" />
+        </div>
+    </header>
+
+    <main>
+        <h1>Get in touch with us</h1>
+        <div class="TeamContact">If you had any enquiries for us, please fill out the form below to contact our team
+        </div>
+            <section class="contactform">
+            <form action="mailto:specialcakes@gmail.com" method="post" enctype="text/plain">
+
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <p>
+                        <label for="contact-name">Name:</label>
+                        <input type="text" id="contact-name" 
+                        required>
+                    </p>
+
+                    <p>
+                        <label for="email-address">Email Address:</label>
+                        <input type="email" id="email-address" 
+                        required>
+                    </p>
+
+                    <p>
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="tel" id="phone-number" pattern="[0-9]" inputmode="numeric" 
+                        maxlength="12" oninput="this.value=this.value.replace(/[^0-9]/g,'')"
+                        required>
+
+                    </p>
+
+                    <p>
+                        <label for="feedback">Feedback/Inquiry:</label>
+                        <textarea id="feedback" name="feedback"></textarea>
+                    </p>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Special Cakes for All Occasions. Website created by Vesper Ashford</p>
+    </footer>
+</body>
+
+</html>

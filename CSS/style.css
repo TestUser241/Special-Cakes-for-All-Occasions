@@ -1,0 +1,305 @@
+
+* {
+  Margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+
+body {
+    margin: 0;
+    font-family:'Brush Script MT';
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: #800080;
+    text-decoration: none;
+}
+
+a:hover, 
+a:focus {
+    text-decoration: underline;
+    
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: #77dd77;
+}
+
+.banner-wrapper {
+    background-color: #77dd77;
+}
+
+.banner-wrapper img {
+    width: 100%;
+    height: auto;
+} 
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: #fff;
+    padding: 0.5rem 0.75rem;
+}
+
+.logo-area img {
+    height: 60px;
+    width: auto;
+}
+
+.site-title {
+    font-size: 1.7rem;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+.nav-links a {
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    border: 3.5px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    border-color: #000;
+    background-color: #f8c8dc;
+    color: #000;
+}
+
+.nav-links .active {
+    background-color: #000;
+    color: #fff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 1.5rem auto 2.5rem;
+    padding: 0.1rem;
+}
+
+h1 {
+    color: #ff00ff;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+h2,
+h3 {
+    color: #000000;
+    font-family:'Courier New', Courier, monospace
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.content-grid {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-details p {
+    margin: 1rem 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder
+}
+
+.hours-list {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder
+}
+
+.hours-list li {
+    margin-bottom: 0.15rem;
+}
+
+.text-small {
+    font-size: 1.1rem;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.Work {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+}
+
+table {
+    width: 1000px;
+    table-layout: fixed;
+    font-family:'Courier New', Courier, monospace;
+    align-items:center;
+    margin:auto;
+}
+
+th {
+    color: #fff;;
+    background-color:#ff00ff;
+}
+
+td {
+    background: color #a9a9a9;
+    color:#000000;
+}
+
+.OurStory {
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    text-decoration:underline;
+}
+
+.Image_Row {
+    display: flex;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+.IMG2 {
+    width: 500px;
+    height:auto;
+    display: block;
+    margin:0;
+}
+
+.IMG1 {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: end;
+}
+
+.Aboutus {
+    text-align:center;
+}
+
+.contactform {
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 40px auto;
+    margin: 25px;
+    max-width: 1000px;
+    font-weight: bold;
+}
+
+.contactform label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"],
+.contactform input[type="tel"],
+.contactform select {
+    width: 300px;
+    padding: 10px;
+    border: 1.5px solid;
+    border-radius: 20px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.contactform textarea {
+    width: 500px;
+    padding: 5px;
+    border: 1.5px solid;
+    font-size: large;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 300px;
+}
+
+input[type='submit'] {
+    background-color:#f8c8dc;
+    border: none;
+    padding: 12px 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:medium;
+}
+
+input[type='submit']:hover {
+    background-color:#ff7f7f
+}
+
+.TeamContact {
+    font-size:larger;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+.Prices {
+    text-align:center;
+}
+
+.product_card {
+    text-align:center;
+}
+
+.product_card img {
+    display:block;
+    margin: 0 auto;
+}
+
+.Desserts h1 {
+    color:#000000;
+    text-decoration:none;
+}
+
+.product_card h2 {
+    color:#ff00ff;
+    text-decoration:underline;
+    font-style:italic;
+}
+
+.product_card h3 {
+    font-style:italic;
+}
+
+.Allergy h3 {
+    color:#ff0000
+}
