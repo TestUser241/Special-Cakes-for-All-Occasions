@@ -303,3 +303,8 @@ input[type='submit']:hover {
 .Allergy h3 {
     color:#ff0000
 }
+
+iframe {
+  width: 600px;
+  height: 600px;
+}
