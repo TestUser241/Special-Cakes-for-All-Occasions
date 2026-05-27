@@ -306,7 +306,7 @@ input[type='submit']:hover {
 
 .AbtSpecialcakes {
   font-size: larger;
-  text-decoration: underline;
-  text-decoration: italic;
-  color: #ff00ff;
+  text-decoration: underline !important;
+  text-decoration: italic !important;
+  color: #ff00ff !important;
 }
