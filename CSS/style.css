@@ -307,6 +307,6 @@ input[type='submit']:hover {
 .AbtSpecialCakes {
   font-size: larger;
   text-decoration: underline !important;
-  text-decoration: italic !important;
   color: #ff00ff !important;
+  font-family: "Brush Script MT";
 }
