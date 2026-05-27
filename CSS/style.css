@@ -303,10 +303,3 @@ input[type='submit']:hover {
 .Allergy h3 {
     color:#ff0000
 }
-
-.AbtSpecialCakes {
-  font-size: larger;
-  text-decoration: underline !important;
-  color: #ff00ff !important;
-  font-family: "Brush Script MT";
-}
