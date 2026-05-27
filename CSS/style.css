@@ -174,7 +174,7 @@ table {
 }
 
 th {
-    color: #000;
+    color: #000 !important;
     background-color:#ff00ff;
 }
 
