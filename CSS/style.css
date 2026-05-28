@@ -308,3 +308,8 @@ input[type='submit']:hover {
   width: 600px;
   height: 600px;
 }
+
+.map-container iframe {
+  width: 600px
+  height: 800px;
+}
