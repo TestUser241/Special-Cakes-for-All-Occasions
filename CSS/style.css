@@ -305,13 +305,6 @@ input[type='submit']:hover {
 }
 
 .map-container {
-  width: 600px;
+  width: 100%;
   height: auto;
-  margin: block;
-}
-
-.map-container iframe {
-  width: 600px;
-  height: auto;
-  margin: block;
 }
