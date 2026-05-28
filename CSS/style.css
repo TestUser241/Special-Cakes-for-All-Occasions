@@ -313,5 +313,5 @@ input[type='submit']:hover {
   width: 100% !important;
   height: 100% !important;
   display: block !important;
-  flex: 0auto;
+  flex: 0 0auto;
 }
